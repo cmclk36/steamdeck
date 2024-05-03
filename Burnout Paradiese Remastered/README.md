@@ -1,27 +1,30 @@
-Burnout Paradise Remastered Fix Skript
+**Burnout Paradise Remastered Fix Skript**
 
-Dieses Skript wurde entwickelt, um Burnout Paradise Remastered auf dem Steam Deck ausführbar zu machen. Das Skript entpackt die Spieldateien und benennt sie um, um die Ausführbarkeit zu gewährleisten.
-Anleitung
+Dieses Skript wurde speziell entwickelt, um Burnout Paradise Remastered auf dem Steam Deck OLED funktionsfähig zu machen. Das Skript entpackt die Spieldateien und benennt sie um, um die Ausführbarkeit zu gewährleisten.
 
-Voraussetzungen: Stellen Sie sicher, dass Sie das Spiel Burnout Paradise Remastered besitzen und die Spiel-Datei "BurnoutPR.zip" haben.
+**Anleitung:**
 
-Herunterladen des Skripts: Laden Sie das Skript "BurnoutPR.sh" von diesem Repository herunter.
+**Voraussetzungen:**
+- Sie benötigen eine Kopie des Spiels Burnout Paradise Remastered.
+- Stellen Sie sicher, dass Sie die Spiel-Datei "BurnoutPR.zip" auf Ihrem Desktop haben. Falls nicht, können Sie sie selbst herunterladen.
 
-Ändern der Berechtigungen: Öffnen Sie ein Terminal und geben Sie den folgenden Befehl ein, um dem Skript Ausführungsrechte zu geben:
+**Herunterladen des Skripts:**
+- Laden Sie das Skript "BurnoutPR.sh" von diesem Repository herunter.
 
-bash
-
+**Ändern der Berechtigungen:**
+1. Öffnen Sie ein Terminal und geben Sie den folgenden Befehl ein, um dem Skript Ausführungsrechte zu geben:
+    ```bash
     chmod +x /home/deck/Desktop/BurnoutPR.sh
+    ```
 
-Ausführen des Skripts: Führen Sie das Skript aus, indem Sie den folgenden Befehl in einem Terminal eingeben:
-
-bash
-
+**Ausführen des Skripts:**
+1. Führen Sie das Skript aus, indem Sie den folgenden Befehl in einem Terminal eingeben:
+    ```bash
     /home/deck/Desktop/BurnoutPR.sh
+    ```
+    Das Skript wird die Dateien entpacken und umbenennen, um sicherzustellen, dass das Spiel auf dem Steam Deck OLED ausgeführt werden kann.
 
-Das Skript wird die Dateien entpacken und umbenennen, um sicherzustellen, dass das Spiel auf dem Steam Deck ausgeführt werden kann.
-
-Hinweise
-
-Stellen Sie sicher, dass die Spiel-Datei "BurnoutPR.zip" im Skript vorhanden ist und dass der Pfad im Skript entsprechend angepasst ist.
-Nach dem Ausführen des Skripts sollte das Spiel auf dem Steam Deck ausführbar sein.
+**Hinweise:**
+- Stellen Sie sicher, dass die Spiel-Datei "BurnoutPR.zip" im Skript vorhanden ist und dass der Pfad im Skript entsprechend angepasst ist.
+- Dieses Skript funktioniert ausschließlich für das Steam Deck OLED.
+- Beachten Sie, dass das Löschen der Original-.exe-Datei durch das Skript nicht möglich ist.
