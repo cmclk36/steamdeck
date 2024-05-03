@@ -1,5 +1,10 @@
 **Burnout Paradise Remastered Fix Skript**
 
+Starten Sie das Spiel mit Proton Experimental und lassen Sie die EA-App ordnungsgemäß installieren: Wenn das Spiel gestartet wird, erscheint ein schwarzer Bildschirm. Beenden Sie das Spiel. Anschließend müssen Sie im EA Overlay der EA-App das Overlay deaktivieren, indem Sie protontricks im BurnoutPR-Präfix starten:
+
+- Wählen Sie "Standard-Präfix" und dann "Explorer ausführen".
+- Suchen Sie den EA-App-Launcher (normalerweise unter etwas wie C:\Program Files\Electronic Arts\EA Desktop\EA_App_Launcher.exe) und doppelklicken Sie darauf. Die EA-App öffnet sich, und nach einiger Zeit können Sie sich anmelden und zu den App-Einstellungen gehen, um das Overlay im Spiel zu deaktivieren.
+
 Dieses Skript wurde speziell entwickelt, um Burnout Paradise Remastered auf dem Steam Deck funktionsfähig zu machen. Das Skript entpackt die Spieldateien und benennt sie um, um die Ausführbarkeit zu gewährleisten.
 
 **Anleitung:**
