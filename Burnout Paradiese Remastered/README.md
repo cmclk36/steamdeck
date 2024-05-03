@@ -10,7 +10,7 @@ Dieses Skript wurde speziell entwickelt, um Burnout Paradise Remastered auf dem 
 - Die "BurnoutPR.exe" wurde von mir erstellt, und sie enthält lediglich den Befehl: `start Z:\home\deck\.local\share\Steam\steamapps\common\BurnoutPR\BurnoutPR.orig.exe` `-skipvideos`. Bitte beachten Sie, dass wenn sich das Spiel in einem anderen Ordner befindet, dieser Befehl möglicherweise nicht funktioniert.
 
 **Herunterladen des Skripts und der Spiel-Datei:**
-- Laden Sie das Skript "BurnoutPR.sh" und die Spiel-Datei "BurnoutPR.zip" von diesem Repository herunter.
+- Laden Sie das Skript ["BurnoutPR.sh"](https://github.com/cmclk36/steamdeck/blob/steamdeck/Burnout%20Paradiese%20Remastered/BurnoutPR.sh) und die Spiel-Datei ["BurnoutPR.zip"](https://github.com/cmclk36/steamdeck/blob/steamdeck/Burnout%20Paradiese%20Remastered/BurnoutPR.zip) von diesem Repository herunter.
 
 **Ändern der Berechtigungen:**
 1. Öffnen Sie ein Terminal und geben Sie den folgenden Befehl ein, um dem Skript Ausführungsrechte zu geben:
