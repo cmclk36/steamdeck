@@ -1,38 +1,38 @@
-**Burnout Paradise Remastered Fix Skript**
+**Burnout Paradise Remastered Fix Script**
 
-Starten Sie das Spiel mit Proton Experimental und lassen Sie die EA-App ordnungsgemäß installieren: Wenn das Spiel gestartet wird, erscheint ein schwarzer Bildschirm. Beenden Sie das Spiel. Anschließend müssen Sie im EA Overlay der EA-App das Overlay deaktivieren, indem Sie protontricks im BurnoutPR-Präfix starten:
+Launch the game using Proton Experimental and allow the EA app to install properly: When the game starts, a black screen appears. Exit the game. Next, you need to disable the overlay in the EA app's overlay by running protontricks in the BurnoutPR prefix:
 
-- Wählen Sie "Standard-Präfix" und dann "Explorer ausführen".
-- Suchen Sie den EA-App-Launcher (normalerweise unter etwas wie C:\Program Files\Electronic Arts\EA Desktop\EA_App_Launcher.exe) und doppelklicken Sie darauf. Die EA-App öffnet sich, und nach einiger Zeit können Sie sich anmelden und zu den App-Einstellungen gehen, um das Overlay im Spiel zu deaktivieren.
+- Select "Default prefix" and then "Run explorer".
+- Locate the EA app launcher (usually found under something like C:\Program Files\Electronic Arts\EA Desktop\EA_App_Launcher.exe) and double-click it. The EA app opens, and after some time, you can log in and go to the app settings to disable the overlay in the game.
 
-Dieses Skript wurde speziell entwickelt, um Burnout Paradise Remastered auf dem Steam Deck funktionsfähig zu machen. Das Skript entpackt die Spieldateien und benennt sie um, um die Ausführbarkeit zu gewährleisten.
+This script is specifically designed to make Burnout Paradise Remastered functional on the Steam Deck. The script unpacks the game files and renames them to ensure executability.
 
-**Anleitung:**
+**Instructions:**
 
-**Voraussetzungen:**
-- Sie benötigen eine legale Kopie des Spiels Burnout Paradise Remastered, die von Steam heruntergeladen wurde.
-- Stellen Sie sicher, dass Sie die Spiel-Datei "BurnoutPR.zip" auf Ihrem Desktop haben. Wenn nicht, können Sie sie zusammen mit dem Skript herunterladen.
-- Die "BurnoutPR.exe" wurde von mir erstellt, und sie enthält lediglich den Befehl: `start Z:\home\deck\.local\share\Steam\steamapps\common\BurnoutPR\BurnoutPR.orig.exe` `-skipvideos`. Bitte beachten Sie, dass wenn sich das Spiel in einem anderen Ordner befindet, dieser Befehl möglicherweise nicht funktioniert.
+**Prerequisites:**
+- You need a legal copy of the game Burnout Paradise Remastered downloaded from Steam.
+- Make sure you have the game file "BurnoutPR.zip" on your desktop. If not, you can download it along with the script.
+- The "BurnoutPR.exe" was created by me, and it only contains the command: `start Z:\home\deck\.local\share\Steam\steamapps\common\BurnoutPR\BurnoutPR.orig.exe` `-skipvideos`. Please note that if the game is located in a different folder, this command may not work.
 
-**Herunterladen des Skripts und der Spiel-Datei:**
-- Laden Sie das Skript ["BurnoutPR.sh"](https://github.com/cmclk36/steamdeck/blob/steamdeck/Burnout%20Paradiese%20Remastered/BurnoutPR.sh) und die Spiel-Datei ["BurnoutPR.zip"](https://github.com/cmclk36/steamdeck/blob/steamdeck/Burnout%20Paradiese%20Remastered/BurnoutPR.zip) von diesem Repository herunter.
+**Downloading the Script and Game File:**
+- Download the script ["BurnoutPR.sh"](https://github.com/cmclk36/steamdeck/blob/steamdeck/Burnout%20Paradise%20Remastered/BurnoutPR.sh) and the game file ["BurnoutPR.zip"](https://github.com/cmclk36/steamdeck/blob/steamdeck/Burnout%20Paradise%20Remastered/BurnoutPR.zip) from this repository.
 
-**Ändern der Berechtigungen:**
-1. Öffnen Sie ein Terminal und geben Sie den folgenden Befehl ein, um dem Skript Ausführungsrechte zu geben:
+**Changing Permissions:**
+1. Open a terminal and enter the following command to give execution rights to the script:
     ```bash
     chmod +x /home/deck/Desktop/BurnoutPR.sh
     ```
 
-**Ausführen des Skripts:**
-1. Führen Sie das Skript aus, indem Sie den folgenden Befehl in einem Terminal eingeben:
+**Running the Script:**
+1. Run the script by entering the following command in a terminal:
     ```bash
     /home/deck/Desktop/BurnoutPR.sh
     ```
-    Das Skript wird die Dateien entpacken und umbenennen, um sicherzustellen, dass das Spiel auf dem Steam Deck ausgeführt werden kann.
+    The script will unpack and rename the files to ensure the game can run on the Steam Deck.
 
-**Hinweise:**
-- Dieses Skript funktioniert für alle Versionen des Steam Deck.
-- Der Befehl `-skipvideos` wird verwendet, um das Spiel zum Laufen zu bringen, kann jedoch das ursprüngliche Spielerlebnis beeinträchtigen.
-- Für das authentische Spielerlebnis wird empfohlen, das Spiel auf einem PC oder einer anderen Konsole zu spielen.
-- Beachten Sie, dass das Löschen der Original-.exe-Datei durch das Skript nicht möglich ist, sie wird lediglich in "BurnoutPR.orig.exe" umbenannt. Wenn der Skript versehentlich ein zweites Mal ausgeführt wird, wird nur die von mir erstellte exe-Datei ersetzt.
-- Bitte überprüfen Sie, ob der Pfad in Ihrer "BurnoutPR.exe" korrekt auf den Speicherort des Spiels verweist. Wenn sich das Spiel in einem anderen Ordner befindet, müssen Sie möglicherweise den Pfad entsprechend anpassen.
+**Notes:**
+- This script works for all versions of the Steam Deck.
+- The `-skipvideos` command is used to get the game running but may impact the original gaming experience.
+- For an authentic gaming experience, it is recommended to play the game on a PC or another console.
+- Note that deleting the original .exe file by the script is not possible; it is only renamed to "BurnoutPR.orig.exe". If the script is accidentally run a second time, only the exe file created by me will be replaced.
+- Please verify that the path in your "BurnoutPR.exe" correctly points to the game's location. If the game is in a different folder, you may need to adjust the path accordingly.
