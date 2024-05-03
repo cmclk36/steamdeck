@@ -1,6 +1,6 @@
 **Burnout Paradise Remastered Fix Skript**
 
-Ich habe die "BurnoutPR.exe" erstellt, und sie enthält lediglich den Befehl: start Z:\home\deck\.local\share\Steam\steamapps\common\BurnoutPR\BurnoutPR.orig.exe -skipvideos. Bitte beachten Sie, dass wenn sich das Spiel in einem anderen Ordner befindet, dieser Befehl möglicherweise nicht funktioniert.
+Ich habe die "BurnoutPR.exe" erstellt, und sie enthält lediglich den Befehl: `start Z:\home\deck\.local\share\Steam\steamapps\common\BurnoutPR\BurnoutPR.orig.exe` `-skipvideos`. Bitte beachten Sie, dass wenn sich das Spiel in einem anderen Ordner befindet, dieser Befehl möglicherweise nicht funktioniert.
 
 **Anleitung:**
 
